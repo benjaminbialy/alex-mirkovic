@@ -214,7 +214,7 @@ function About() {
 							heading="Photography Awards"
 							first__line="Tanjil Artshow"
 							date="2018-2019"
-							second__line="In 2018 my photo won third place and in 2019 my photo won second place at the Tanjil Junior Photography Division"
+							second__line="In 2018 my photo won third place and in 2019 my photo won second place at the Tanjil junior photography division"
 						/>
 						<div className="photography--img info--card">
 							<h3>Winning Photos</h3>
