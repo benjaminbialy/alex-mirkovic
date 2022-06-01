@@ -1,0 +1,18 @@
+.paypal__buttons{
+    padding: 0 8% 20% 5%;
+    text-align: left;
+}
+.hide--me i{
+    height: 0;
+    width: 0;
+}
+.paypal--shop{
+    z-index: 1;
+}
+.accesslink{
+    text-decoration: none;
+    color: white;
+}
+.accesslink:hover{
+    color: #08fdd8;
+}

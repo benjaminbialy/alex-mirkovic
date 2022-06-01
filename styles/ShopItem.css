@@ -1,0 +1,116 @@
+.shopitem {
+	display: flex;
+	flex-direction: row;
+	padding: 5% 7.5%;
+	border-top-color: #08fdd8;
+	border-top-style: solid;
+	background-color: #2a2a2a;
+	margin: 2.5% 0 7.5% 0;
+	box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%),
+		0 1px 10px 0 rgb(0 0 0 / 12%);
+}
+.shopitem--img {
+	position: relative;
+	display: flex;
+	width: 50%;
+	height: 80vh;
+	background-color: #27211e;
+	justify-content: center;
+	text-align: center;
+}
+.shopitem--info {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	font-family: sans-serif;
+	color: #ffffff;
+	padding-top: 5%;
+	justify-content: center;
+	align-items: left;
+}
+.shopitem--img,
+.shopitem--info {
+	padding: 0 7%;
+}
+.product--title {
+	color: #08fdd8;
+	font-size: 2rem;
+}
+.shopitem--info p {
+	line-height: 1.5rem;
+}
+.buy__btn {
+	font-size: 1.1rem;
+	font-weight: 400;
+	left: 12.5%;
+	padding: 2% 1%;
+	border-width: thin;
+	width: 35%;
+	text-align: center;
+	align-self: center;
+	margin-top: auto;
+}
+.shopitem--buybtn {
+	background-color: transparent;
+	border-width: thin;
+	border-style: solid;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	width: 40%;
+	margin-top: 2.5%;
+	padding: 2% 3%;
+	font-size: 1.1em;
+	font-weight: 100;
+	background-position: right;
+	background-size: 200%;
+	transition: 0.3s ease-out;
+}
+.shopitem--buybtn:hover {
+	background-color: #1d1d1d;
+}
+.shopitem--buybtn a {
+	color: inherit;
+	display: block;
+	width: 100%;
+}
+@media only screen and (max-width: 800px) {
+	.shopitem--img {
+		width: 80%;
+	}
+	.shopitem--info {
+		width: 80%;
+	}
+	.shopitem--info h2 {
+		font-size: 4vh;
+	}
+}
+.buybtn--container {
+	display: flex;
+	justify-content: center;
+	margin-top: 15%;
+}
+.price {
+	font-size: 2rem;
+}
+@media only screen and (max-width: 768px) {
+	.shopitem p {
+		line-height: 2rem;
+		font-size: 3.5vw;
+		font-weight: 300;
+	}
+}
+.price {
+	color: #08fdd8;
+	font-weight: 400;
+	font-size: x-large;
+	margin-bottom: 0;
+}
+.product--title {
+	color: #ffffff;
+	font-weight: 400;
+}
+.product--desc {
+	color: #a7a7a7;
+}

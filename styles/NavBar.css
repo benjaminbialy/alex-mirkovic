@@ -1,0 +1,109 @@
+.navbar {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #181818;
+	width: 125px;
+	position: fixed;
+	z-index: 5;
+}
+.logo--section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	height: 175px;
+	padding: 15% 1%;
+	background-color: #000000;
+	margin-bottom: 2%;
+}
+.logo--section a {
+	color: #ffffff;
+}
+.logo--section p {
+	color: #909096;
+	font-size: 0.8rem;
+	width: 80%;
+}
+.logo--section--name {
+	margin-top: 3%;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav--item {
+	text-align: center;
+	line-height: 5vh;
+	color: #909096;
+	height: 5vh;
+	padding: 5% 0;
+	font-size: 1.1em;
+	border-color: #282828;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	width: 100%;
+}
+.nav--item:hover {
+	color: #08fdd8;
+}
+.logo {
+	position: relative;
+	width: 60px;
+	height: 60px;
+}
+@media only screen and (max-width: 1300px) {
+	.navbar {
+		flex-direction: row;
+		height: 10vh;
+		width: 100vw;
+		background-color: #000000;
+		justify-content: space-between;
+		z-index: 40;
+		max-width: 100vw;
+		padding: 0;
+		position: fixed;
+		top: 0;
+	}
+	.logo--section {
+		flex-direction: row;
+		height: 10vh;
+		padding: 0;
+		align-items: center;
+		width: 15vw;
+		margin-bottom: 0;
+	}
+	.nav--item {
+		height: 10vh;
+		line-height: 10vh;
+		text-align: center;
+		width: 10vw;
+		font-size: 17.5pt;
+		border: none;
+		padding: 0 7vw 0 0;
+	}
+	.logo--section--name {
+		display: none;
+	}
+	.logo--section--info {
+		display: none;
+	}
+	.logo {
+		width: 40px;
+		height: 40px;
+	}
+}
+@media only screen and (min-width: 660px) {
+}
+@media only screen and (min-width: 840px) {
+}
+@media only screen and (min-width: 1300px) {
+	.nav--item {
+		font-size: 15pt;
+	}
+}

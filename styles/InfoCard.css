@@ -1,0 +1,16 @@
+.info--card {
+	width: 40.5%;
+	background-color: #2a2a2a;
+	padding: 2% 4%;
+	color: #ababab;
+	margin: 3% 0;
+	height: 300px;
+}
+.info--card h3 {
+	color: #ffffff;
+}
+@media only screen and (max-width: 800px) {
+	.info--card {
+		width: auto;
+	}
+}

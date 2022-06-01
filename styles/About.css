@@ -1,0 +1,181 @@
+.about h2 {
+	color: #08fdd8;
+	font-size: 5vw;
+	margin-top: 1vw;
+}
+.about {
+	margin-top: 8vh;
+	display: flex;
+	flex-direction: column;
+	width: 82.5vw;
+	margin-bottom: 5vw;
+}
+.about--me,
+.tutoring,
+.photography {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7.5vh;
+}
+.about--me--content {
+	width: 48%;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+}
+.skills--swirl {
+	width: 39%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+}
+.left,
+.right {
+	width: 70%;
+	line-height: 1.75em;
+	font-size: 20pt;
+	color: #08fdd8;
+	margin: 2% 0;
+}
+.left {
+	align-self: flex-start;
+}
+.right {
+	text-align: right;
+	align-self: flex-end;
+}
+.tutoring--content,
+.tutoring--stats {
+	width: 48%;
+	height: 91vh;
+}
+.info--card--container {
+	display: flex;
+	justify-content: space-between;
+}
+.tutoring--content h2,
+.photography--content h2 {
+	margin-top: 0.5vh;
+}
+.photography--content,
+.photography--stats {
+	width: 48%;
+	height: 90vh;
+}
+.photography--img img {
+	width: 100%;
+	margin: 1% 0;
+}
+.photography--img {
+	padding: 2% 4%;
+}
+footer {
+	background: #373737;
+	height: 3px;
+}
+#biology {
+	height: 100%;
+	background-color: #08fdd8;
+	max-width: 90%;
+}
+#chemistry {
+	height: 100%;
+	background-color: #ff2253;
+	max-width: 72%;
+}
+#english {
+	height: 100%;
+	background-color: #d26cd5;
+	max-width: 67%;
+}
+#physics {
+	height: 100%;
+	background-color: #08fdd8;
+	max-width: 61%;
+}
+#maths {
+	height: 100%;
+	background-color: #ff2253;
+	max-width: 56%;
+}
+#lightroom {
+	height: 100%;
+	background-color: #08fdd8;
+	max-width: 95%;
+}
+#nature {
+	height: 100%;
+	background-color: #ff2253;
+	max-width: 72%;
+}
+#urban {
+	height: 100%;
+	background-color: #d26cd5;
+	max-width: 66%;
+}
+#photoshop {
+	height: 100%;
+	background-color: #08fdd8;
+	max-width: 56%;
+}
+.about p {
+	font-size: 1.2em;
+}
+.confidence--bars {
+	margin-bottom: 2.5%;
+}
+.winning--photo {
+	position: relative;
+	width: 100%;
+	height: 37.5%;
+	margin-top: 5%;
+}
+@media only screen and (max-width: 1300px) {
+	.about {
+		flex-direction: column;
+		margin-bottom: 0;
+		width: 80vw;
+	}
+	.about--me--content {
+		flex-direction: column;
+		align-items: center;
+	}
+	.about--me,
+	.photography,
+	.tutoring {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 0 0;
+		height: auto;
+	}
+	.about--me {
+		justify-content: space-between;
+	}
+	.about--me--content,
+	.tutoring--content,
+	.tutoring--stats,
+	.photography--content,
+	.photography--stats {
+		align-items: flex-start;
+		width: 100%;
+		height: auto;
+	}
+	.about--me div {
+		width: 80vw;
+	}
+	.about {
+		position: relative;
+		height: auto;
+		min-height: 100em !important;
+	}
+	.skills--swirl {
+		height: auto;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.info--card--container {
+		flex-direction: column;
+	}
+}

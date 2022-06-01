@@ -1,0 +1,55 @@
+.shop{
+    margin-left: 18%;
+    margin-right: 5%;
+    border-color: transparent;
+}
+.shop--item{
+    display: flex;
+    width: 100%;
+}
+.shop--header{
+    border-width: .05rem;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.shop--header h1{
+    font-size: 200pt;
+    color: #2B2B2B;
+    letter-spacing: -24px;
+}
+@media only screen and (max-width: 1300px) {
+    .shop{
+        margin: 125px 5% 0 5%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .shopitem{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .shop--header h1{
+        font-size: 120pt;
+        letter-spacing: -15px;
+    }
+    .shop--header p{
+        font-size: 2vh;
+    }
+    .shop{
+        margin: 12.5vh 5% 0 5%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .shop{
+        margin-top: 15vh;
+    }
+}
+@media only screen and (max-width: 410px){
+    .shop--header h1{
+        font-size: 100pt;
+        letter-spacing: -13px;
+    }
+}
