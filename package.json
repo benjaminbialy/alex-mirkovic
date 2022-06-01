@@ -2,6 +2,7 @@
   "name": "alex-mirkovic",
   "version": "0.1.0",
   "private": true,
+  "homepage": "",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,6 +14,7 @@
     "@react-google-maps/api": "^2.11.9",
     "framer-motion": "^6.3.5",
     "i": "^0.3.7",
+    "mapbox-gl": "^2.8.2",
     "next": "12.1.6",
     "npm": "^8.11.0",
     "paypal-checkout": "^4.0.336",
